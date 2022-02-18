@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>top</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Around Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>	
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-info">
+					<div class="top-header-left wow fadeInLeft animated" data-wow-delay=".5s">
+						<p>サニー沖縄スペシャルサイトへようこそ！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-header">
+			<div class="container">
+				<div class="logo wow fadeInDown animated" data-wow-delay=".5s">
+					<h1><a href="index.html"><img src="images/logov.png" alt="" /></a></h1>
+				</div>
+				<div class="top-nav wow fadeInRight animated" data-wow-delay=".5s">
+					<nav class="navbar navbar-default">
+						<div class="container">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Menu						
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html" class="active">トップ</a></li>
+								<li><a href="about.html">やさい</a></li>
+								<li><a href="codes.html">レシピ</a></li>
+								<li><a href="kirai.html">偏食</a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- banner -->
+	<div class="banner">
+			<div class="slider">
+				<h2 class="wow shake animated" data-wow-delay=".5s">サニー沖縄</h2>
+				<div class="border"></div>
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						// Slideshow 4
+							$("#slider3").responsiveSlides({
+								auto: true,
+								pager: true,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+									$('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+									$('.events').append("<li>after event fired.</li>");
+								}
+							 });				
+						});
+				</script>
+				<div  id="top" class="callbacks_container-wrap">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="slider-info">
+								<h3 class="wow fadeInRight animated" data-wow-delay=".5s">沖縄やさいで家族みんな健康に！</h3>
+								<p class="wow fadeInLeft animated" data-wow-delay=".5s">沖縄の青果物は栄養満点です。</p>
+								<div class="more-button wow fadeInRight animated" data-wow-delay=".5s">
+									<a href="about.html">詳細</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="slider-info">
+								<h3>野菜好きになりましょう！</h3>
+								<p>一日間のレシピを提案します</p>
+								<div class="more-button">
+									<a href="codes.html">詳細	</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<!-- //banner -->
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-grids">
+				<div class="col-md-6 banner-bottom-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<div class="left-border">
+						<div class="left-border-info">
+							<p>いただきます！<br/>
+								くわっちーさびら！</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 banner-bottom-left banner-bottom-right wow fadeInRight animated" data-wow-delay=".5s">
+					<div class="left-border">
+						<div class="left-border-info right-border-info">
+							<p>残さず食べよう！<br/>
+								作ったくれた方への感謝を！</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner-bottom -->
+	<!-- information -->
+	<div class="information">
+		<div class="container">
+			<div class="information-heading">
+				<h3 class="wow fadeInDown animated" data-wow-delay=".5s">⼦どもの食事、家族の食事。</h3>
+				<p class="wow fadeInUp animated" data-wow-delay=".5s"> </p>
+			</div>
+			
+			<div class="information-grids">
+				<div class="col-md-4 information-grid wow fadeInLeft animated" data-wow-delay=".5s">
+					<div class="information-info">
+						<div class="information-grid-img">
+							<img src="images/8.jpg" alt="" />
+						</div>
+						<div class="information-grid-info">
+							<h4>野菜を好きになろう! </h4>
+							<p>　味わい・彩り・食感・幅広い種類・調理法など、野菜の楽しみ方はさまざまですが、野菜に含まれる栄養素も魅力の一つ。
+								野菜に含まれるビタミンやミネラルは、肉や魚に含まれるたんぱく質や、お米や麺類に含まれる炭水化物など、 体を作る、エネルギーになる栄養素がうまく働くための役割を担っています。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 information-grid wow fadeInUp animated" data-wow-delay=".5s">
+					<div class="information-info">
+						<div class="information-grid-info">
+							<h4>野菜を知って健康になろう！</h4>
+							<p>　野菜は１日350gの摂取が推奨されています。日本人の野菜摂取量の平均値は280gで、あと70g足りていません。特に20～40代の若者や中年層が足りていない結果が出ています。これは、外食の増加や朝食を抜くといった食習慣が影響している可能性があります。
+							</p>
+						</div>
+						<div class="information-grid-img">
+							<img src="images/3.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 information-grid wow fadeInRight animated" data-wow-delay=".5s">
+					<div class="information-info">
+						<div class="information-grid-img">
+							<img src="images/7.jpg" alt="" />
+						</div>
+						<div class="information-grid-info">
+							<h4>野菜って簡単に摂れる!</h4>
+							<p>　生野菜、加熱野菜のどちらにも利点があります。生野菜は、ビタミンCのような加熱に弱い栄養素をそのまま摂れることが特長です。シャキシャキとした食感や爽やかな香りを楽しむこともできます。また、加熱工程がないので、調理時間も短くできます。加熱野菜は、火を通すことで葉物野菜のボリュームが減り、たくさんの量を食べることができます。
+			                </p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //information -->
+	
+	<!-- popular -->
+	<div class="popular">
+		<div class="container">
+			<div class="popular-heading information-heading">
+				<h3 class="wow fadeInDown animated" data-wow-delay=".5s">美味しいもの</h3>
+				<p class="wow fadeInUp animated" data-wow-delay=".5s"></p>
+			</div>
+			<div class="popular-slide">
+				<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						// Slideshow 4
+							$("#slider1").responsiveSlides({
+								auto: true,
+								pager: true,
+								nav: false,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+									$('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+									$('.events').append("<li>after event fired.</li>");
+								}
+							 });				
+						});
+				</script>
+				<div  id="top" class="callbacks_container-wrap">
+					<ul class="rslides" id="slider1">
+						<li>
+							<div class="popular-slide-info wow bounceIn animated" data-wow-delay=".5s">
+								<h4>【朝食】</h4>
+								<p>
+									”しっかり食べてエネルギー補給！
+									一日の良いスタートを切りましょう！”</p>
+							</div>
+						</li>
+						<li>
+							<div class="popular-slide-info popular-slide1">
+								<h4>【昼食】</h4>
+								<p>
+									“給食をバランスの良い食事のお手本にしましょう！”</p>
+							</div>
+						</li>
+						<li>
+							<div class="popular-slide-info popular-slide2">
+								<h4>【夕食】</h4>
+								<p>
+									”１日の食事で不足している食品を
+									しっかりカバーしましょう！” </p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="popular-grids">
+				<div class="col-md-4 popular-grid wow fadeInLeft animated" data-wow-delay=".5s">
+					<h5>【朝食】</h5>
+					<p>”しっかり食べてエネルギー補給！
+						一日の良いスタートを切りましょう！”</p>
+				</div>
+				<div class="col-md-4 popular-grid wow fadeInUp animated" data-wow-delay=".5s">
+					<h5>【昼食】</h5>
+					<p>“給食をバランスの良い食事のお手本にしましょう！”</p>
+				</div>
+				<div class="col-md-4 popular-grid wow fadeInRight animated" data-wow-delay=".5s">
+					<h5>【夕食】</h5>
+					<p>”１日の食事で不足している食品を
+						しっかりカバーしましょう！”</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //popular -->
+	
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-nav wow fadeInLeft animated" data-wow-delay=".5s">
+					<h4>リンク</h4>
+					<ul>
+						<li><a href="about.html">トップ</a></li>
+						<li><a href="gallery1.html">野菜</a></li>
+						<li><a href="blog.html">レシピ</a></li>
+					</ul>
+				</div>
+				<div class="col-md-5 footer-nav wow fadeInUp animated" data-wow-delay=".5s">
+					<h4>最新情報</h4>
+					<p>メールアドレス入力して
+						情報もらえる！</p>
+					<form>
+						<input type="email" id="mc4wp_email" name="EMAIL" placeholder="Enter your email here" required="">
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="col-md-4 footer-nav wow fadeInRight animated" data-wow-delay=".5s">
+					<h4>サニー沖縄</h4>
+					<div class="news-grids">
+						<div class="news-grid">
+							<h6>TEL :<h7>098-860-9415</h7></h6>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="copyright wow fadeInUp animated" data-wow-delay=".5s">
+				<p> サニー沖縄</p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+<style>
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+</style>
+</body>	
+</html>
