@@ -1,0 +1,466 @@
+
+
+html,body {
+	margin:0;
+	padding:0;
+  position: relative;
+  justify-content: space-between
+	}
+body{
+	background-color:white;
+	line-height:1;
+	font-size:80%;
+	font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+.header {
+        width: 70%;
+        display: inline-block;
+        vertical-align: top;
+}
+
+p{
+	font-size: 16px;
+	line-height: 25px;
+    color: #3e3b3b;
+}
+h1{
+	grid-area: header;
+	font-size: 21px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 300;
+    color: #3e3b3b;
+}
+a{
+	text-decoration: none;
+    color: #3e3b3b;
+}
+
+
+.inner{
+	float: left;
+	width: 70%;
+	padding: 10px;
+}
+
+.inner_right{
+	float: right;
+	padding: 16px 10px;
+}
+
+.inner_right img{
+	width:80%;
+}
+
+.topnav{
+    width: 75%;
+    padding: 10px;
+    border-right: 3px solid gray;
+    border-top: 3px solid gray;
+    background: white;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: fixed;
+    height: 100%;
+	
+}
+
+.topnav li{
+    padding: 10px 30px;
+    border: green 2px solid;
+    border-radius: 25px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.topnav h1{
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    line-height: 2px;
+}
+
+.active{
+    background: green;
+    color: white;
+    font-size: 18px;
+    padding: 15px 160px;
+}
+
+
+.navlist{
+	float: right;
+    margin-right: 20px;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.wrapper img{
+	max-width: 100%;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.topbtn{
+margin: 0 auto;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+.topbtn a{
+	    display: inline-block;
+}
+
+
+.mybtn{
+	float: left;
+	background-color: white;
+	border: #188E18 2px solid;
+	margin-left: 8px;
+	border-radius: 25px;
+	color:#188E18;
+	font-size: 16px;
+	padding: 10px 8px;
+	text-align: center;
+}
+
+.mytext{
+    padding: 15px;
+    margin: 15px;
+    background: #f6ffbc;
+    border-radius: 25px;
+    padding-bottom: 1px;
+}
+
+.mytext p{
+	text-indent: 2em;
+}
+
+.myimgcenter{
+	text-align: center;
+    margin: 0 auto;
+}
+
+.myimgcenter img{
+	max-width: 60%;	
+}
+
+.mytextnobg{
+	margin: 30px;
+}
+
+.mytextnobg h1,.mytextnobg h2{
+	text-align: center;
+}
+
+
+.topbtn1{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.topbtn1 a{
+	    display: inline-block;
+}
+.mybtn1{
+    float: left;
+    background-color: #f6ffbc;
+    border: gray 2px solid;
+    margin-left: 8px;
+    border-radius: 100%;
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 10px 8px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 130px;
+}
+
+.biggreentext{
+	text-align: center;
+	font-size: 27px;
+	color: #188E18;
+	font-weight: 900;
+	padding-top: 20px;
+}
+
+.greenbtn{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #188E18;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 25px;
+}
+
+.greenbtn1{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #188E18;
+    color: white;
+    padding: 5px;
+    font-size: 21px;
+    width: 100%;
+    display: inline-block;
+}
+
+.spacing{
+	height: 40px;
+}
+
+.footnavleft{
+	float: left;
+	width:100%;
+	padding: 20px 15px;
+    background-color: #e0fed5;
+}
+
+.footnavleft img {
+    width: 25px!important;
+    height: auto!important;
+}
+
+.footnavleft li a{
+	color: green;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.footnavright{
+    float: left;
+    margin-top: 50px;
+    margin-left: 40%;
+    position: absolute;
+}
+
+.footnavright img{
+    max-width: 95%;
+}
+
+.footnavleft li::marker{
+	color: green;
+}
+
+.copyright{
+    background-color: #f6ffbc;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+
+/*event页面*/
+.topbtn.event{
+margin: 20px 0px;
+}
+.eventtopbtn{
+    padding: 10px 40px;
+    background-color: green;
+    margin-bottom: 20px;
+    width: 40%;
+	text-align: center;
+}
+
+.eventtopbtn a{
+	color: white;
+    size: 10px
+}
+
+.myimgcenter.event{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+a.greenbtn.event{
+    background-color: #f6fec2;
+    color: black;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: gray 2px solid;
+}
+
+
+/*message页面*/
+.message{
+    padding: 15px;
+    margin: 15px;
+    background: #f6ffbc;
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+textarea{
+	width:100%;
+	height: 300px;
+}
+
+.message p,.message h1{
+	color: black;
+}
+.message img{
+    float: right;
+	height: 34px;
+}
+.tb{
+    border: #09b0f6 3px solid;
+    font-size: 24px;
+    color: #09b0f6;
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
+}
+.tb img{
+	width: 40px;
+    position: center;
+}
+.tbleft,.tbright{
+	float: left;
+}
+
+/*news页面*/
+.news{
+	padding: 5px 10px;
+	margin: 15px;
+	border: green 4px solid;
+	border-radius: 25px;
+}
+
+.news span,.news h1{
+	color: green;
+}
+
+.newstop{
+	margin-bottom:30px;
+}
+.newsbottom{
+	margin-bottom: 10px;
+}
+
+.time{
+	float: left;
+}
+.detail{
+	float: right;
+}
+
+.newsbottom span{
+	font-size: 20px;
+}
+
+
+/*QA页面*/
+.qa{
+    padding: 15px;
+    margin: 15px;
+    background: #f6ffbc;
+    border-radius: 25px;
+    padding-bottom: 25px;	
+}
+.qa h2{
+	font-size: 18px;
+	font-weight: 700;
+}
+.qa p{
+	font-size: 16px;
+	font-weight: 700;
+    margin: 0px;
+}
+.qabottom{
+	margin: 60px 20px;
+}
+.qabottomleft{
+	float: left;
+}
+.qabottomleft img{
+	width:100px;
+}
+.qabottomright p{
+	font-size: 14px;
+}
+.qabottomright a{
+    background-color: green;
+    padding: 10px 60px;
+    color: white;
+    border-radius: 25px;
+}
+
+/*senpail页面*/
+.senpail{
+	margin: 10px;
+    margin-bottom: 60px;
+}
+.senpailleft{
+	float: left;
+	width: 50%;
+}
+.senpailright{
+	float: left;
+	width: 50%;
+}
+
+.senpailleft h2{
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.senpailleft p,.senpailright p{
+	text-align: center;
+	font-size: 14px;
+	margin: 0px;
+	color: #3e3b3b;
+}
+
+.senpailright img{
+	max-width: 100%;
+}
+.senpail1{
+	background-color: #f6ffbc;
+	border: gray 2px solid;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #3e3b3b;
+}
+
+.myimgcenter.senpail{
+	margin-bottom: 60px;
+}
+.myimgcenter.senpail a{
+	font-size: 21px;
+}
+
+
+/*about页面*/
+.mytext.gakuseijichikai{
+	margin-bottom: 50px;
+}
+.aboutbtn{
+	margin: 15px;
+	
+}
+.aboutbottom{
+    text-align: center;
+    font-size: 27px;
+    color: #188E18;
+    font-weight: 900;
+    padding: 20px 0;
+	text-indent: 0px;
+}
